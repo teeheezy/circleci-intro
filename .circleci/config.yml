@@ -6,6 +6,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - run: npm install
+      - run: npm test
       - run: echo Hello Teoman!
 
   test:
